@@ -1,6 +1,6 @@
-const Container = require ('../../Desafio2/index')
+const Container = require ('../index')
 
-const data = new Container("../Desafio2/products.txt")
+const data = new Container("./products.txt")
 
 const product = async () => {
     try {
